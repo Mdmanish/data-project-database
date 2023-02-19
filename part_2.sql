@@ -1,0 +1,1 @@
+select batsman, sum(batsman_runs) as score FROM deliveries where batting_team like '%Royal Challengers Bangalore%' group by batsman order by score desc limit 10;

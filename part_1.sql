@@ -1,0 +1,1 @@
+select batting_team, sum(total_runs) as score FROM deliveries group by batting_team;

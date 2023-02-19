@@ -1,0 +1,1 @@
+select season, count(season) as matche_played FROM matches group by season order by season;
